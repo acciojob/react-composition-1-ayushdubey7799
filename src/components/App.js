@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div>
-        <Tab setCurrentTab = {setCurrentTab}/>
+        <Tabs setCurrentTab = {setCurrentTab}/>
         <h4>{currentTab}</h4>
     </div>
   )
