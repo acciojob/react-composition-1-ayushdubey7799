@@ -2,7 +2,7 @@ import React from "react";
 
 const tabArr = [{title: 'tab1' , content: 'content for tab1'},{title: 'tab2' , content: 'content for tab2'},{title: 'tab3' , content: 'content for tab3'}];
 
-const Tab = (props) => {
+const Tabs = (props) => {
     console.log(props);
   return (
    
@@ -15,4 +15,4 @@ const Tab = (props) => {
   )
 }
 
-export default Tab;
+export default Tabs;
